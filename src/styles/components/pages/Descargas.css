@@ -1,0 +1,49 @@
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  position: relative;
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  padding: 5px;
+  background-color: #5f145b;
+  color: white;
+  text-decoration: underline;
+}
+
+.menu li:hover a {
+  background-color: #444;
+}
+
+.submenu {
+  position: absolute;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  display: none;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  display: block;
+}
+
+.submenu li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.submenu li a:hover {
+  background-color: #444;
+}

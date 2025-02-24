@@ -1,0 +1,17 @@
+header {
+  background-color: #433292;
+  padding: 6px 0;
+}
+header h1 {
+  color: rgba(242, 235, 243, 0.842);
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  display: inline-block;
+  position: relative;
+  bottom: 35px;
+}
+.holder img {
+  border-radius: 50%;
+  margin-left: 39%;
+}
